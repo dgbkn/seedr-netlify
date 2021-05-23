@@ -1,3 +1,14 @@
 [build]
     Functions = "lambda"
     Command = "npm run build:lambda"
+
+
+
+
+
+[[redirects]]
+  from = ".netlify/functions/api"
+  to = "/*"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
