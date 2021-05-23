@@ -64,5 +64,5 @@ router.get('/magnetLink', async function(req, res){
     res.send(value);
 })
 
-app.use('/',router);
+app.use('/.netlify/functions/api',router);
 module.exports.handler = serverless(app);
