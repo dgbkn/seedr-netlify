@@ -7,8 +7,7 @@
 
 
 [[redirects]]
-  from = ".netlify/functions/api"
-  to = "/*"
+  from = "/*"
+  to = ".netlify/functions/api"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+  
