@@ -12,7 +12,7 @@ TorrentSearchApi.enableProvider('TorrentProject');
 
 
 TorrentSearchApi.getActiveProviders();
-var torrV;
+
 // Search '1080' in 'Movies' category and limit to 20 results
 
 TorrentSearchApi.search(['ThePirateBay','Torrent9','Torrentz2','1337x','Rarbg','TorrentProject'], '720', 'Movies', 5) 
